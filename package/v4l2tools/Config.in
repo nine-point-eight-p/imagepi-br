@@ -1,0 +1,8 @@
+config BR2_PACKAGE_V4L2TOOLS
+	bool "v4l2tools"
+	help
+	  This is simple V4L2 tools based on libv4l2cpp.
+	  ONLY v4l2copy IS INCLUDED IN THIS PACKAGE.
+	  
+	  https://github.com/mpromonet/v4l2tools
+	  https://github.com/nine-point-eight-p/v4l2tools/tree/v4l2copy-only

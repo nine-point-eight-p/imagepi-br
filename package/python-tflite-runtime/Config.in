@@ -1,0 +1,9 @@
+config BR2_PACKAGE_PYTHON_TFLITE_RUNTIME
+	bool "python-tflite-runtime"
+	depends on BR2_PACKAGE_PYTHON3
+	select BR2_PACKAGE_PYTHON_NUMPY
+	help
+	  TensorFlow Lite is the official solution for running machine 
+	  learning models on mobile and embedded devices.
+
+	  https://www.tensorflow.org/lite/

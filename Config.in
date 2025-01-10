@@ -1,0 +1,3 @@
+source "$BR2_EXTERNAL_RASPI3_IMG_CLS_PATH/package/mjpg-streamer-v4l2loopback/Config.in"
+source "$BR2_EXTERNAL_RASPI3_IMG_CLS_PATH/package/python-tflite-runtime/Config.in"
+source "$BR2_EXTERNAL_RASPI3_IMG_CLS_PATH/package/v4l2tools/Config.in"
